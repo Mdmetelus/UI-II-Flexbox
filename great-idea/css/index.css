@@ -221,6 +221,12 @@ footer {
 	width: 870px;
 	border-bottom: line solid black;
 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	/* align-content: center; */
+	flex-wrap: wrap;
+
 }
 .servicesGroup .sixGroup{
 	width: 350px;
@@ -258,21 +264,32 @@ footer {
 }
 
 .bigPic{
-	/* animations */
+
 
 }
 .aaa{
 	border-bottom: line solid red;
+
+
 }
+.container .linelowerr {
+	width: 845px;
+	margin: 25px;
+	border-bottom: line solid black;
+
+
+	}
+
 .lowerLevel{
-	width: 800px;
+	width: 850px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	border-top: line solid black;
 
 }
 .lowerLevel article{
-	width: 475px;
+	width: 375px;
 	border: line solid white;
 
 }
